@@ -2,16 +2,16 @@ export const CodeWarsCard = ({ rank, progress, milestone }) => {
 	return (
 		<div className="codewars-card">
 			<h1>CodeWars</h1>
-			<p>Your Rank: {rank}</p>
+			<h4>Your Rank: {rank}</h4>
       <h3>Milestone: Data Base week 3</h3>
-			<p>You are on the track</p>
+			<h5>You are on the track</h5>
       <p>________________________</p>
       <h3>Next Milestone :final project</h3>
-      <p>Remain days : 17 days</p>
-			<p>Required rank: {milestone}</p>
+      <h4>Remain days : 17 days</h4>
+			<h4>Required rank: {milestone}</h4>
       <p>_______________________</p>
-      <p>you need 70 more  JS score in total</p>
-      <p>Progress: {progress}%</p>
+      <h5>you need 70 more  JS score in total</h5>
+      <h4>Progress: {progress}%</h4>
 		</div>
 	);
 };
