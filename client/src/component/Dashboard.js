@@ -1,7 +1,7 @@
 import React from "react";
 import CodeWarsCard from "/CodeWarsCard";
 
-const TraineeDashboard = () => {
+const Dashboard = () => {
   return (
     <div className="dashboard">
       {/* other dashboard components */}
@@ -11,4 +11,4 @@ const TraineeDashboard = () => {
   );
 };
 
-export default TraineeDashboard;
+export default Dashboard;

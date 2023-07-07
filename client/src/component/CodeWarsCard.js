@@ -1,6 +1,6 @@
 import React from "react";
 
-const CodeWarsCard = ({ rank, progress, milestone }) => {
+export const CodeWarsCard = ({ rank, progress, milestone }) => {
   return (
     <div className="codewars-card">
       <h2>CodeWars Milestone</h2>
@@ -12,4 +12,4 @@ const CodeWarsCard = ({ rank, progress, milestone }) => {
   );
 };
 
-export default CodeWarsCard;
+export { CodeWarsCard }
